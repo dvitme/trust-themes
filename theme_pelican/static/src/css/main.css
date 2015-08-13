@@ -106,8 +106,7 @@ a:hover,a:focus{color:#5173bd;}
 	color:#FFF;
 	text-align:center;
 	text-shadow:0 1px 0 rgba(0,0,0,.1);
-	background-color:#6883cc;
-	background-image:url("../img/header.png");
+	background-color:#000;	
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-attachment:fixed;
@@ -115,6 +114,7 @@ a:hover,a:focus{color:#5173bd;}
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	height:720px;
 	}
 
 .masthead .container{
@@ -546,3 +546,7 @@ padding: 40px 15px;
 }
 
 }
+
+.icone-modulos div { height:160px;text-align:center; }
+.icone-modulos h3 { margin: 0px; }
+.icone-modulos img { filter: grayscale(0.3); }

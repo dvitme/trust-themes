@@ -10,7 +10,15 @@
 	   
 			 	
 	   <div id="top" class="masthead" role="main">
+	   				
+			<video class="covervid-video" id="covervid-video" loop="loop" autoplay="autoplay"
+					style="position:absolute;top:52%;left:50%;transform:translate(-50%, -50%);
+					height:auto;width:1349px; opacity:0.2">					
+				<source src="theme_pelican/static/src/videos/video.webm" type="video/webm" />					
+			</video>	
+	   
 			<div class="container">
+				
 				<div class="logo"> <a href="/"><img src="/theme_pelican/static/src/img/logo.png" alt="logo" /></a>
 				</div>
 	 
@@ -40,60 +48,160 @@
 			</div>
 		</div>
  
-	   <div class="container" id="explore">
-	 
-			<div class="section-title">
-				<h2>Pelican sobre o ombro de gigantes - Odoo #1 open source.</h2>
-				<h4>O sistema ideal para sua empresa gerenciar todos os seus processos.</h4>
-			</div>
-	
-			<section class="row heroimg breath">
-				<div class="col-md-12 text-center"> 
-					<img src="/theme_pelican/static/src/img/flat-mockup-template.png" alt="flat-mockup-template" />
-				</div>
-			</section>
-	 
-			<div class="section-title">
-				<h2>Conheça algumas das características.</h2>
-				<h4>*Milhares de módulos a sua disposição.</h4>
-			</div>
-			
-			<section class="row features">
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-usd" style="font-size:6em;color:black;"></span>
-						<div class="caption">
-							<h3>Gerenciamento de vendas</h3>
-							<p>Profissionalize seu processo de vendas com a elaboração de orçamentos 
-							customizados. Leve sua equipe de vendas para um nível mais alto de 
-							relacionamento com seus clientes com o controle de orçamentos.</p>
-						</div>
-					</div>
-				</div>
-	 
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-tags" style="font-size:7em;color:black;"></span>
-						<div class="caption">
-							<h3>Compre com segurança</h3>
-							<p>Alimente automaticamente seu estoque a cada compra. 
-							Nunca mais perca tempo digitando informações repetidas e criando controles paralelos. .</p>
-						</div>
-					</div>
-				</div>
-	 
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-truck" style="font-size:7em;color:black;"></span>
-						<div class="caption">
-							<h3>Controle de estoque</h3>
-							<p>Esqueça a planilha de controle de estoque e abra espaço para um gestão 
-							de estoque totalmente online, integrada e sem dor de cabeça. Garanta o 
-							abastecimento de mercadorias em seu estoque e nunca mais perca uma venda.</p>
-						</div>
-					</div>
-				</div>
-	 
+	   <div class="container" id="explore">	 
+	 		<div class="section-title">
+		        <h2>Entenda porque o Pelican é a sua melhor escolha.</h2>
+		        <h4>E junte-se aos mais de 2 milhões de usuários globais.</h4>
+		      </div>
+		      <section class="row heroimg breath" style="height: 256px; overflow: hidden;">
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-globe fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Presente em Mais de 120 Paises</h3>
+		              <p>Conte com o know-how e compartilhe conhecimentos com paises desenvolvidos e torne sua gestão globalizada.</p>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-cloud fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Servidor Local ou Web</h3>
+		              <p>Escolha o que é melhor para sua empresa. Oferecemos todo suporte para manuteção de seu servidor local e toda a praticidade de um servidor Web.</p>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-smile-o fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Modulado e Completo</h3>
+		              <p>Elimine a preocupação de ter que trocar de ERP quando a sua empresa crescer. Ao invés disso, ative módulos e insira recursos sem complicação.</p>
+		            </div>
+		          </div>
+		        </div>
+		      </section>
+		      <hr class="mb32" />
+		      <section class="mb16">
+		        <div class="container">
+		          <div class="row">
+		            <div class="text-center">
+		              <h2>Principais Módulos</h2>
+		              <h4 class="text-muted">*Milhares de módulos a sua disposição.</h4>
+		            </div>
+		          </div>
+		          <div class="row">
+		            <div class="col-md-12 mt16 mb16">
+		              <div class="row icone-modulos">
+		                <div class="col-md-2 col-md-offset-1">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-financeiro.png" style="min-width: 45px"/>
+		                  <h3>Financeiro</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-projetos.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3 style="margin:0px;">Gestão de Projetos</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-rh.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Recursos Humanos</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-compras.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Compras</h3>
+		                </div>	
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-armazen.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Armazens (WMS)</h3>
+		                  <p class="text-muted"/>
+		                </div>	              
+		              </div>
+		              <div class="row icone-modulos">
+		                <div class="col-md-2 col-md-offset-1">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-manufatura.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Manufatura</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-website.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>WebSite (CMS)</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-forum.png" style="min-width: 45px"/>
+		                  <h3>WebSite Fórum</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-comercial.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Comercial (CRM)</h3>
+		                </div>
+		                <div class="col-md-2">
+		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-marketing.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
+		                  <h3>Marketing</h3>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </section>			 		    
+		      <section>
+		        <div class="container">
+		          	<div class="row"> <div class="col-md-6 mt16">
+		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
+		              	src="/theme_pelican/static/src/img/comercial.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+		            </div>
+		            <div class="col-md-6 mt16">
+		              <h3>Comercial Eficiente</h3>
+		              <p>&#10003; <strong>Agendamento de reuniões e ligações</strong> diretamente das cotações.</p>
+		              <p style="text-align: justify;">&#10003; Gerencie as<strong> necessidades de estoque</strong> através da demanda comercial.</p>
+		              <p style="text-align: justify;">&#10003; Cadastre empresas rapidamente usand<strong/><strong/><strong/>o a integração com o <strong>Sintegra</strong>.</p>
+		              <p style="text-align: justify;">&#10003; Saiba tudo o que está acontecendo com <strong>relatórios</strong> simples e objetivos.</p>
+		              <p style="text-align: justify;">&#10003; Apresente-se bem com <strong>e-mails personalizados</strong>.</p>
+		              <p style="text-align: justify;">&#10003; Gerenciamento de<strong> listas de preços</strong>.</p>
+		            </div>
+		           
+		          </div>
+		        </div>
+		      </section>
+		      <section style="margin: 35px;">
+		        <div class="container">
+		          <div class="row">		            
+		            <div class="col-md-6 mt16 mb16">
+		              <h3>Ferramentas de Marketing</h3>
+		              <p>&#10003; <strong>CRM</strong> completo.</p>
+		              <p>&#10003; <strong>email marketing</strong> 100% personalizável.</p>
+		              <p>&#10003; <strong>WebSite e Blog</strong> integrados.</p>
+		              <p>&#10003; Crie formulários de <strong>pesquisa</strong> e gerencie as respostas coletadas.</p>
+		              <p>&#10003; Gerencie <strong>campanhas de marketing</strong>.</p>
+		            </div>
+		            <div class="col-md-6 mt16">
+		              <img alt="Odoo image and text block" class="img img-responsive shadow mb16" 
+		              		src="/theme_pelican/static/src/img/marketing.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+		            </div>
+		          </div>
+		        </div>
+		      </section>
+		      <section>
+		        <div class="container">
+		          <div class="row">
+		          	<div class="col-md-6 mt16">
+		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
+		              	src="/theme_pelican/static/src/img/armazen_manufatura.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+		            </div>
+		            <div class="col-md-6 mt16">
+		              <h3>Armazem e Manufatura.</h3>
+		              <p>&#10003; <strong>Regras de estoque</strong> minimo.</p>
+		              <p>&#10003; <strong>Rotas avançadas</strong> para movimentação de estoque.</p>
+		              <p>&#10003; <span class="_Tgc">P<span class="_Tgc">lanejamento das necessidades de materiais</span></span> (<strong>MRP</strong>).</p>
+		              <p>&#10003; Controle de lotes e<strong> rastreabilidade</strong>.</p>
+		              <p>&#10003; <strong>Centros de trabalho</strong>.</p>
+		              <p>&#10003; <strong>Programação</strong> das ordens de produção e visualização em<strong> grafico Gantt</strong>.</p>
+		              <p/>
+		            </div>		            
+		          </div>
+		        </div>
+		      </section>
+		      <hr class="mb32"/>
+		      		
+			<section class="row features">			
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
 						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
@@ -105,22 +213,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
-	 
-	 		<section class="row features">
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-user" style="font-size:7em;color:black;"></span>
-						<div class="caption">
-							<h3>Conquiste seu cliente</h3>
-							<p>Tenha em mãos toda a sua carteira de clientes, conheça-os melhor e 
-							entenda o nível de relacionamento deles com sua empresa, afinal o 
-							gerenciamento de clientes é extremamente importante para o 
-							desenvolvimento da imagem da empresa.</p>
-						</div>
-					</div>
-				</div>
-	 
+		
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
 						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
@@ -159,6 +252,7 @@
 				</div>
 			</section>
 	
+			<!-- 
 			<div class="section-title">
 				<h2>Alguns de nosso clientes</h2>
 				<h4>Conheça nossos clientes satisfeitos</h4>
@@ -169,10 +263,11 @@
 					<img src="/theme_pelican/static/src/img/client-logos.png" alt="client-logos" />
 				</div>
 			</section>
+			-->
 	 
 		</div>
 	 
-
+		<!--		
 	 	<div class="highlight testimonials">
 			<div class="container">
 				<div class="section-title">
@@ -214,25 +309,24 @@
 				</section> 
 			</div>
 		</div>
+		-->
  
 		<div class="container">
  
 			<div class="section-title">
 				<h2>Preço honesto. Sem surpresas.</h2>
-				<h4>Pague via cartão de crédito e tenha seu sistema rodando na hora. </h4>
+				<h4>Preços promocionais para o 1º ano. </h4>
 			</div>
 			<section class="row breath planpricing">
 			
 				<div class="col-md-4">
 					<div class="pricing color1">
 						<div class="planname">Iniciante</div>
-						<div class="price"> <span class="curr">R$</span>150<span class="per">/mensais</span></div>
+						<div class="price"> <span class="curr">R$</span>100<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 3 usuários<br/>
-						    Todos os módulos disponíveis<br/>
-						    Até 3 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático
+						    Até 3 usuários<br/>						    
+						    Até 2 horas de suporte mensais<br/>				
+						    Módulos: Vendas, Compras, Estoque<br/>		    
 						</div>
 					</div>
 				</div>
@@ -240,28 +334,23 @@
 				<div class="col-md-4">
 					<div class="pricing color2">
 						<div class="planname">Profissional</div>
-						<div class="price"> <span class="curr">R$</span>250<span class="per">/mensais</span></div>
+						<div class="price"> <span class="curr">R$</span>180<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 10 usuários<br/>
-						    Todos os módulos disponíveis<br/>
+						    Até 10 usuários<br/>						    
 						    Até 5 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático
+						    *Módulos: Completo<br/>						    
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-4">
 					<div class="pricing color3">
-						<div class="planname">Expert</div>
-						<div class="price"> <span class="curr">R$</span>500<span class="per">/mensais</span></div>
+						<div class="planname">Expert (promocional)</div>
+						<div class="price"> <span class="curr">R$</span>240<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 20 usuários<br/>
-						    Todos os módulos disponíveis<br/>
-						    Até 10 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático<br/>
-						    Preferência no desenvolvimento de novos módulos
+						    Até 20 usuários<br/>						    
+						    Até 10 horas de suporte mensais<br/>	
+						    *Módulos: Completo<br/>							    
 						</div>
 					</div>
 				</div>
